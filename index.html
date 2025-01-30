@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Practice</title>
+    <!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<!-- poppins  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- font awesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- DaisyUI  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    
+    .font-eb-garamond {
+        font-family: "EB Garamond", serif;
+    }
+    .font-poppins{
+        font-family: "Poppins", serif;
+    }
+   
+</style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           'btn-primary': 'rgba(182, 140, 90, 1)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-poppins">
+    <header class="md:container mx-auto">
+        <div>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                       </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                      <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                      <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                       <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                  </div>
+                  <a class="text-xl flex gap-3 items-center text-4xl font-eb-garamond font-extrabold"> <img class=" w-[44px] " src="images/business.png" alt="">Justice</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                     <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-btn-primary text-white">Free Consultation</a>
+                </div>
+              </div>
+        </div>
+
+    </header>
+    <!-- banner  -->
+     <div class="md:container mx-auto">
+        <div
+  class="hero lg:h-[550px] md:h-[550px] rounded-2xl "
+  style="background-image: url(images/banner.png);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md ">
+      <h1 class="mb-5 text-3xl lg:text-5xl md:text-5xl font-bold font-eb-garamond">We Provide Effective Legal Solutions</h1>
+      <p class="mb-5">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="flex gap-4">
+            <input class="lg:w-[500px] md:w-[500px] rounded-lg pl-2" type="text" name="" id="" placeholder="Search your services">
+              <button class="btn bg-btn-primary">Get Started</button>
+        </div>
+   
+    </div>
+  </div>
+</div>
+</div>
+     <!-- client say  -->
+      <section class="md:container mx-auto mt-16">
+        <h2 class="font-eb-garamond font-extrabold lg:text-5xl text-3xl text-center">What Our Client Say</h2>
+        <p class="font-normal text-base text-center mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p> 
+        <div class="mt-16 ">
+            <div class="carousel lg:w-full">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div
+                    class="hero lg:h-[500px] rounded-2xl relative "
+                    style="background-image: url(images/banner.png);">
+                    <div class="absolute inset-0 bg-black bg-opacity-50">
+                    </div>
+                    <div class="relative z-10"></div>
+                    <div class="hero-overlay "></div>
+                    <div class="hero-content text-neutral-content text-center bg-opacity-60 ">
+                      <div class="max-w-md">
+                        <div>
+                        <div class="avatar">
+                            <div class="w-24 rounded-full">
+                              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h1 class="mt-5 text-3xl font-bold font-eb-garamond">Awlad Hossain</h1>
+                        <small>UIX Designer</small>
+                           <p class="mb-10 mt-10">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                        </p>
+                          <hr>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                               
+              </div>
+        </div>
+      </section>
+      <!-- ask question  -->
+       <section class="md:container mx-auto mt-16">
+
+       </section>
+    <main>
+        
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
